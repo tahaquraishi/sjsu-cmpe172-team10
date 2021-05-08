@@ -1,6 +1,14 @@
 <html xmlns:th="http://www.thymeleaf.org">
    <html>
       <head>
+         <style>
+            footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            }
+         </style>
          <meta charset="ISO-8859-1">
          <title>Employee Workforce Management</title>
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -16,7 +24,12 @@
             </div>
          </nav>
          <div class="container" style="text-align:center">
-            <h3>Welcome!</h3>
+            <h2>Welcome!</h2>
+            <p><span id="dt"></span></p>
+            <script>
+               var dt = new Date();
+               document.getElementById("dt").innerHTML = dt.toLocaleString();
+            </script>
             <p style="margin-bottom: 50px;">Employees can view if they are scheduled to work today or currently clocked in or out.</p>
          </div>
          <div class=container>
@@ -24,8 +37,8 @@
                <thead>
                   <tr>
                      <th>Name</th>
-                     <th>Scheduled?</th>
-                     <th>Clocked In?</th>
+                     <th>Scheduled</th>
+                     <th>Clocked In</th>
                   </tr>
                </thead>
                <tbody>
