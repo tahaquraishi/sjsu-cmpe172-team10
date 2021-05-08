@@ -9,22 +9,34 @@
 	</head>
 	
 	<body>
-		<table>
-			<thead>
-				<tr>
-					<th>Name</th>
-					<th>Scheduled?</th>
-					<th>Clocked in?</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr th:each="employee : ${employees}">
-					<td th:text="${employee.name}"></td>
-					<td th:text="${employee.scheduled}"></td>
-					<td th:text="${employee.working}"></td>
-				</tr>
-			</tbody>
-		</table>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand">Employee Workforce Management</a>
+				</div>
+			</div>
+		</nav>
+	
+
+		<div class="container">
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Scheduled?</th>
+						<th>Clocked in?</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="employee : ${employees}">
+						<td th:text="${employee.name}"></td>
+						<td th:text="${employee.scheduled}"></td>
+						<td th:text="${employee.working}"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
 	</body>
 	
 </html>
