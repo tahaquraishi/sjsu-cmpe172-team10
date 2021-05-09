@@ -1,7 +1,7 @@
 # Employee Workforce Management
-University Name: SJSU
+University: SJSU
 
-Course: Enterprise Software CMPE172 (Spring 2021)
+Course: CMPE172 Enterprise Software (Spring 2021)
 
 Team Members: Taha Quraishi, Jeevvansh Lota, Simran Bains
 
