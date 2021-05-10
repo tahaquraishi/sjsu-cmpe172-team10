@@ -35,7 +35,12 @@ To view the structure of our application please navigate to the structure folder
 
 
 # Instructions for running this project locally
-1. Access the following link to download the code for the application: https://www.dropbox.com/s/uk14b95u39o1lsi/cmpe172project.zip?dl=0
-2. Open a new or existing workspace in Eclipse and navigate to File -> Import.
+1. Access the following link and choose the "Direct Download" option to download the code for the application: https://www.dropbox.com/s/uk14b95u39o1lsi/cmpe172project.zip?dl=0
+2. Extract the files from the zip folder.
+3. Open a new or existing workspace in Eclipse and navigate to File -> Import.
+4. Select Maven as the import wizard and select the option "Existing Maven Projects" and click Next.
+5. In the Root Directory section, click the "Browse..." button and find the unzipped folder and select it as the Root Directory, then select the cmpe172project under "Projects:" and click Finish.
+6. Navigate to the CMPE172Project.java file in the sjsu.cmpe172project package inside src/main/java.
+7. Run as a java application.
 
 
