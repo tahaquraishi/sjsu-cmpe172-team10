@@ -27,7 +27,14 @@ To view the structure of our application please navigate to the structure folder
 
 
 # Sequence Diagram
+![CMPE172 Sequence Diagram](https://user-images.githubusercontent.com/25395914/117732921-8ab88200-b1a5-11eb-93fd-311616f2825a.png)
+
 
 # DB Schema
 ![image](https://user-images.githubusercontent.com/56938902/117731760-89865580-b1a3-11eb-8816-b5210e86a08d.png)
+
+
+# Instructions for running this project locally
+1. Access the following link to download the code for the application: https://www.dropbox.com/s/uk14b95u39o1lsi/cmpe172project.zip?dl=0
+
 
