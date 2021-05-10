@@ -36,5 +36,6 @@ To view the structure of our application please navigate to the structure folder
 
 # Instructions for running this project locally
 1. Access the following link to download the code for the application: https://www.dropbox.com/s/uk14b95u39o1lsi/cmpe172project.zip?dl=0
+2. Open a new or existing workspace in Eclipse and navigate to File -> Import.
 
 
