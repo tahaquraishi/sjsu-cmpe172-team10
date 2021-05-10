@@ -39,8 +39,8 @@ To view the structure of our application please navigate to the structure folder
 2. Extract the files from the zip folder.
 3. Open a new or existing workspace in Eclipse and navigate to File -> Import.
 4. Select Maven as the import wizard and select the option "Existing Maven Projects" and click Next.
-5. In the Root Directory section, click the "Browse..." button and find the unzipped folder and select it as the Root Directory, then select the cmpe172project under "Projects:" and click Finish.
+5. In the Root Directory section, click the "Browse..." button and find the unzipped folder and select it as the Root Directory, then select the SNAPSHOT:jar for cmpe172project/pom.xml under "Projects:" and click Finish.
 6. Navigate to the CMPE172Project.java file in the sjsu.cmpe172project package inside src/main/java.
 7. Run as a java application.
-
+8. Access the webpage http://localhost:8080/employees on your browser.
 
