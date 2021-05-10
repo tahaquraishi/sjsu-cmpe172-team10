@@ -15,7 +15,7 @@ Project Introduction: This is a 3 tier web application that allows administators
 
 
 # Structure
-To view the structure of our application please navigate to the structure folder of our repository
+To view the structure of our application please navigate to the structure folder of our repository.
 
 
 # System Diagram
