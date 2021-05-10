@@ -1,6 +1,5 @@
 package sjsu.cmpe172project;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,9 +13,6 @@ public class EmployeeService {
 	
 	public List<Employee> getEmployees() {
 		List<Employee> employees = (List<Employee>)employeeRepository.findAll();
-		if (employees.size() < 0) {
-			return new ArrayList<Employee>();
-		}
 		return employees;
 	}
 
