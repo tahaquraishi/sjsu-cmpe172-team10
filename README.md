@@ -42,5 +42,5 @@ To view the structure of our application please navigate to the structure folder
 5. In the Root Directory section, click the "Browse..." button and find the unzipped folder and select it as the Root Directory, then select the SNAPSHOT:jar for cmpe172project/pom.xml under "Projects:" and click Finish.
 6. Open the CMPE172Project.java file, which is found in the sjsu.cmpe172project package inside src/main/java.
 7. Run as a java application.
-8. Access the webpage http://localhost:8080/employees on your browser.
+8. Access the webpage http://localhost:8080/ on your browser.
 
